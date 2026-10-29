@@ -6,7 +6,7 @@ AI-assisted real-world evidence verification for a delivery escrow prototype. Th
 
 - FastAPI pipeline with SQLite history, explicit demo evidence, TinyFish Agent API retrieval, and optional OpenAI structured extraction.
 - Prompt-injection warning, strict schema validation, evidence-byte grounding, source/shipment/timestamp checks, and fail-closed review outcomes.
-- SHA-256 evidence fingerprint and ECDSA signed, expiring, escrow-bound attestations.
+- SHA-256 evidence fingerprint and ECDSA signed, expiring, escrow-bound attestations .
 - OpenZeppelin-based payable Solidity escrow with on-chain signer recovery, replay protection, and local Hardhat tests.
 - React dashboard connected to the API, injected wallet, and deployed local contract.
 - End-to-end local demo script.
